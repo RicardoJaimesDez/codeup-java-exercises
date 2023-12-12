@@ -37,7 +37,17 @@ public class TypesVariablesSyntaxLecture {
 
         final String EMPEROR_OF_IMUGI = "Ricky \"Lord Leatherneck\" Jaimes";
 
+        // Casting Section of The Lecture
+        byte tinyNum = 22;
+        short stillSmallNum = (short) (tinyNum + 3);
+        System.out.println(stillSmallNum);
 
+        float almostPi = 3.14F; // Add a "F" to get rid of the error
+        int almostAlmostPi = (int) almostPi;
+        System.out.println(almostPi);
+        System.out.println(almostAlmostPi);
+
+        long bigNum = 200L;
 
     }
 }
