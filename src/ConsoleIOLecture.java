@@ -36,14 +36,14 @@ public class ConsoleIOLecture {
 
         // Able to enter Doubles
         System.out.print("Enter some float number: ");
-        double userDbl = scanner.nextDouble(); // captures everything before you press enter
+        double userDbl = scanner.nextDouble(); //
 
         System.out.println("You entered: --> \"" + userDbl + "\" <--");
 
         // Able to enter strings
         System.out.print("Enter something: ");
         scanner.nextLine();
-        String userInput2 = scanner.nextLine(); // captures everything before you press enter
+        String userInput2 = scanner.nextLine(); //
         System.out.println("You entered: --> \"" + userInput2 + "\" <--");
 
     }
